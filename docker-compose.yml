@@ -1,0 +1,7 @@
+version: '1'
+services:
+  smeweb:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: 'dockerhub.akij.net:5000/smeweb:${tag}'

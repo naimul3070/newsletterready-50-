@@ -1,0 +1,45 @@
+@use './common/scss/variable.scss';
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+// Import css variables
+
+// Tailwind import
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html,
+  body {
+    font-family: 'Roboto', sans-serif !important;
+  }
+}
+button,
+[type='button'],
+[type='reset'],
+[type='submit'] {
+  background-color: var(--primary_color);
+  color: var(--white);
+}
+.ant-btn-primary:focus,
+.ant-btn-primary:hover {
+  border-color: var(--primary_color_dark);
+  background: var(--primary_color_dark);
+}
+.ant-btn-text[disabled],
+.ant-btn-text[disabled]:active,
+.ant-btn-text[disabled]:focus,
+.ant-btn-text[disabled]:hover {
+  color: rgba(0, 0, 0, 0.25) !important;
+  border-color: transparent !important;
+  background: transparent;
+  text-shadow: none;
+  box-shadow: none;
+}
+
+// Disable Button Color
+.custom_button .ant-btn[disabled] {
+  color: rgba(0, 0, 0, 0.2) !important;
+  background: #f7f7f8 !important;
+  border: 1px solid #c5c7d0 !important;
+}

@@ -1,0 +1,49 @@
+:root {
+  // Root Variables
+  --primary_color: rgba(24, 125, 228, 1);
+  --primary_color_dark: rgb(17 101 187);
+  --secondary_color: #667085;
+  --white: #fff;
+  --grey_700: rgba(52, 64, 84, 1);
+  --text_color: rgba(0, 0, 0, 0.7);
+  --primary_color_text: #344054;
+  --primary_line_height: 14px;
+  --text_border_color: rgba(197, 199, 208, 1);
+
+  // Font Weight
+  --fw-400: 400;
+  --fw-500: 500;
+  --fw-600: 600;
+  --fw-700: 700;
+  --fw-800: 800;
+  --fw-900: 900;
+
+  --font-bold: var(--fw-600);
+
+  // font sizes
+  --fs_normal: 11px;
+  --fs_medium: 13px;
+  --fs_large: 17px;
+
+  // Buton
+  --secondary_border_color: rgba(143, 161, 176, 1);
+  --secondary_border_color_dark: rgb(91, 103, 113);
+  @media only screen and (min-width: 1024px) {
+    // Sidebar
+    --border_color: rgba(0, 0, 0, 0.08);
+    --sidebar_width: 280px;
+    --menu_hover_color: rgba(245, 251, 255, 1);
+
+    // Topbar
+    --topbar_height: 48px;
+  }
+  @media only screen and (max-width: 1024px) {
+    // Sidebar
+    --border_color: rgba(0, 0, 0, 0.08);
+    --sidebar_width: 0px;
+    --menu_hover_color: rgba(245, 251, 255, 1);
+
+    // Topbar
+    --topbar_height: 48px;
+  }
+}
