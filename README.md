@@ -43,4 +43,3 @@ or npm
 6. Tailwind Css
 
 <p  align="center"  bold> </p>
-# Motion View

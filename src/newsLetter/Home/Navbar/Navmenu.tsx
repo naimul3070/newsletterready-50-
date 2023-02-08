@@ -5,7 +5,6 @@ type NavMenuType = {};
 const NavMenu: React.FC<NavMenuType> = ({}) => {
   return (
     <>
-      {/* <div className="flex justify-between w-full"> */}
       <NavLink className="hidden lg:block" to="/">
         Home
       </NavLink>
