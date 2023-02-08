@@ -1,6 +1,7 @@
 @use './common/scss/variable.scss';
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
 // Import css variables
 
 // Tailwind import
@@ -42,4 +43,33 @@ button,
   color: rgba(0, 0, 0, 0.2) !important;
   background: #f7f7f8 !important;
   border: 1px solid #c5c7d0 !important;
+}
+
+.footerTop {
+  background-image: url(https://themexriver.com/appilo-theme/email-marketing/wp-content/uploads/sites/39/2020/11/cta-bg.jpg);
+}
+
+.heroSec {
+  background-image: url('./../public/assests/Home/heroBG.jpg');
+}
+.heroSec2 {
+  background-image: url('./../public/assests/Home/heroBG2.jpg');
+}
+
+.contact-us-button {
+  font-family: 'Roboto', Sans-serif;
+  // height: 50px;
+  font-size: 15px;
+  line-height: 50px;
+  font-weight: 600;
+  fill: #ffffff;
+  color: #ffffff;
+  background-color: #4dbfbf;
+  border-radius: 3px 3px 3px 3px;
+  transition: 0.3s all ease-in-out;
+  padding: 0px 15px 0px 15px;
+  &:hover {
+    background-color: #4ca7c0;
+    color: white;
+  }
 }

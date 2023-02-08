@@ -1,0 +1,36 @@
+.pricing-button {
+  height: 50px;
+  width: 180px;
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  line-height: 50px;
+  font-weight: 500;
+  font-size: 16px;
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  border: 2px solid #01e07b;
+  transition: 0.3s all ease-in-out;
+  &:hover {
+    background-color: #01e07b;
+    color: white;
+  }
+}
+.popular-price {
+  position: relative;
+  .popular-price-tag {
+    position: absolute !important;
+    top: 20px;
+    left: -13px;
+  }
+}
+
+.price-card-animation {
+  transition: 0.3s;
+}
+.price-card-animation:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+  z-index: 2;
+}

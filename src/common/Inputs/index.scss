@@ -1,0 +1,84 @@
+.RMGInputWrapper,
+.RMGSelectWrapper,
+.RMGRadioWrapper,
+.RMG_Text_Area {
+  .ant-form-item-label {
+    padding: 0 0 0px;
+    line-height: var(--fs_normal);
+    font-size: var(--fs_normal);
+  }
+  label {
+    line-height: var(--fs_normal);
+    font-size: var(--fs_normal);
+  }
+}
+
+.RMGInputWrapper,
+.RMGSelectWrapper,
+.RMG_Text_Area {
+  .ant-form-item {
+    margin: 0;
+  }
+  .ant-checkbox-wrapper {
+    font-size: var(--fs_normal);
+    font-weight: var(--fw-500);
+  }
+  .ant-form-item-label > label {
+    color: var(--text_color);
+    font-size: var(--fs_normal);
+    font-weight: var(--fw-500);
+  }
+  .ant-input {
+    font-size: var(--fs_normal);
+    // border: 1px solid var(--text_border_color);
+    line-height: 22px;
+  }
+
+  .ant-form-item-explain-error {
+    font-size: var(--fs_normal);
+  }
+  .ant-form-item-label
+    > label.ant-form-item-required:not(
+      .ant-form-item-required-mark-optional
+    ):before {
+    font-size: 11px;
+  }
+  .serchFieldTopbar.ant-input-affix-wrapper:before {
+    position: absolute;
+  }
+}
+.ant-form-item-label > label {
+  height: 15px;
+}
+.RMGInputWrapper .ant-picker-input > input {
+  font-size: var(--fs_normal);
+  padding: 2px 0px;
+}
+.RMGInputWrapper .ant-input-affix-wrapper {
+  line-height: var(--fs_normal);
+}
+.RMGSelectWrapper .ant-select {
+  font-size: var(--fs_normal);
+}
+.RMGSelectWrapper
+  .ant-select:not(.ant-select-customize-input)
+  .ant-select-selector {
+  border: 1px solid var(--text_border_color);
+}
+.RMGInputWrapper .ant-input-number {
+  font-size: var(--fs_normal);
+  border: 1px solid var(--text_border_color);
+}
+
+// text area
+.RMG_Text_Area {
+  label {
+    font-size: var(--fs_normal);
+    .required {
+      font-size: 14px;
+    }
+  }
+}
+
+
+

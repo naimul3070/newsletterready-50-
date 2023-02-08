@@ -1,0 +1,16 @@
+.send-button {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-weight: 600;
+    font-size: 16px;
+    text-shadow: 0px 0px 10px rgb(0 0 0 / 30%);
+    background-color: #4dbfbf;
+    color: #ffffff;
+    border-radius: 4px;
+    padding: 12px 15px 12px 15px;
+    transition: 0.3s all ease-in-out;
+    &:hover {
+      background-color: #4ca7c0;
+      color: white;
+    }
+  }
